@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Memo recherche emploie</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Ajouter une candidature</h1>
+        <form action="" id="job-form">
+            <div>
+             <label for="job">poste</label>
+             <input type="text" id="job" class="u-full-width">
+            </div> 
+            <div>
+                <label for="company">entreprise</label>
+                <input type="text" id="company" class="u-full-width"> 
+            </div>
+            <div>
+                <label for="date">date</label>
+                <input type="date" id="date" class="u-full-width">
+            </div>
+            <div>
+                <label for="link">lien de l'annonce</label>
+                <input type="text" id="link" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" value="ajouter" class="u-full-width">
+            </div>
+        </form>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>poste</th>
+                    <th>entreprise</th>
+                    <th>date</th>
+                    <th>lien</th>
+               </tr> 
+            </thead>
+            <tbody id="job-list">
+                
+            </tbody>
+        </table>
+    </div>
+   <script src="main.js"></script> 
+</body>
+</html>
